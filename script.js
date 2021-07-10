@@ -12,7 +12,7 @@ function compute()
     var year= new Date().getFullYear()+parseInt(years);
     document.getElementById("result").innerHTML="If you deposit "
     +prinicipal+ ",</br> at an interset of " + rate+"%.<br/>You will receive an amount of "+
-    Interest+",<br/>" +" in the year "+year;
+    Interest+",<br/>" +" in the year "+year+"<br/>";
     }
 }
 function updateRate()
